@@ -20,7 +20,7 @@ Este projeto demonstra como testar uma aplicação simples usando o Robot Framew
 
 ## Executando os Testes
 
-1. **Navegue até o diretório do projeto onde está o arquivo de teste:**
+1. **Navegue até o diretório raíz do projeto:**
 
     ```bash
     cd /caminho/para/seu/projeto

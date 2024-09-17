@@ -11,8 +11,25 @@ Este projeto demonstra como testar uma aplicação simples usando o Robot Framew
 
 ## Instalação
 
-1. Instale o Robot Framework e as bibliotecas necessárias:
+1. **Instale o Robot Framework e as bibliotecas necessárias:**
 
-```bash
-pip install robotframework
-pip install robotframework-seleniumlibrary
+    ```bash
+    pip install robotframework
+    pip install robotframework-seleniumlibrary
+    ```
+
+## Executando os Testes
+
+1. **Navegue até o diretório do projeto onde está o arquivo de teste:**
+
+    ```bash
+    cd /caminho/para/seu/projeto
+    ```
+
+2. **Execute os testes com o Robot Framework:**
+
+    ```bash
+    robot tests/test_login.robot
+    ```
+
+    Os resultados dos testes serão exibidos no terminal e salvos em arquivos HTML e log para visualização.
